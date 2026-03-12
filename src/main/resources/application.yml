@@ -1,0 +1,19 @@
+spring:
+    application:
+        name: departmentManager
+    datasource:
+        username: postgres
+        password: huylebron2828
+        url: jdbc:postgresql://localhost:5432/department
+
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+        properties:
+            hibernate:
+                format_sql: true
+    cloudinary:
+        cloud-name: ddt0hpybt
+        api-key: 868395567718584
+        api-secret: QEqiZYg8IgJL3vj4NxLk9AYarkc

@@ -5,5 +5,7 @@ import com.example.departmentmanager.entity.Department;
 
 public interface IDepartmentService {
 
-    Department createDepartment(DepartmentDTO departmentDTO) ;
+    Department createDepartment (DepartmentDTO departmentDTO) ;
+
+
 }
